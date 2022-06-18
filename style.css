@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body {
+    background-color:  hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.bigdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 35%;
+}
+
+.exhibit {
+    color: hsl(150, 100%, 66%);
+    font-size: 16px;
+}
+
+.advice {
+    color: hsl(193, 38%, 86%);
+    font-size: 35px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    background: hsl(150, 100%, 66%) url(/images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: none;
+    border-radius: 50%;
+}
